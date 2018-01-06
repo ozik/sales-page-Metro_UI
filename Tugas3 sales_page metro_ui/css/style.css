@@ -1,0 +1,90 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	}
+/*-- banner --*/
+.home{
+	min-height:611px;
+	}
+.home h2{
+	margin-top:10px;
+	text-align: center;
+	}
+.home-content{
+	margin-left:25px;
+	}
+/*-- fitur --*/
+.fitur {
+	min-height:660px;
+	background:#A6A5A5;
+	color:#F9F9F9;
+	}
+.fitur h2{
+	padding-top:15px;
+	text-align: center;
+	}
+.fitur p{
+	font-size:14px;
+	text-align:justify;
+	margin: 18px auto 38px auto;
+	}
+/*-- testimoni --*/
+.testimoni{
+	margin-top:-11px;
+	min-height:660px;
+	background:#DAE2E5;
+	}
+.testimoni h2{
+	padding-top:15px;
+	text-align: center;
+	}
+/*-- order --*/
+.order{
+	margin-top:-11px;
+	min-height:660px;
+	}
+.order h2{
+	padding-top:15px;
+	text-align: center;
+	}
+/*-- contact-us --*/
+.contact-us{
+	padding:40px 0;
+	background:#f4f4f4;
+	min-height:660px;
+	border-bottom:1px solid #e8e8e8;
+	border-top:1px solid #e8e8e8;
+	}
+.contact-us h2{
+	margin: 0;
+	text-align: center;
+	}
+.contact-us  h4{
+	text-align:center;
+	padding:15px 0 20px 0;
+}
+/*-- to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 0px;
+	right: 0%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 32px;
+	height: 32px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/arr.png") no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 32px;
+	height: 32px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //to-top --*/
